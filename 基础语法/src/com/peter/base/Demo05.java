@@ -1,3 +1,5 @@
+package com.peter.base;
+
 /**
  * @author chen hao
  * @date 2020/5/22 23:29

@@ -1,3 +1,5 @@
+package com.peter.base;
+
 /**
  * @author chen hao
  * @date 2020/5/22 23:35
@@ -16,3 +18,4 @@ public class Demo06 {
         System.out.println(R);
     }
 }
+//公司域名倒置作为包名
