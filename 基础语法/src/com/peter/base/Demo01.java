@@ -24,7 +24,7 @@ public class Demo01 {
         double e = 2.4 - 2.0;
         System.out.println(e);
 
-        for(int i=0; i<=127; i++){
+        for(int i=0; i<= 126; i++){
             System.out.println((char)i+":"+i+'\n');
         }
         System.out.println('\u4e2d');

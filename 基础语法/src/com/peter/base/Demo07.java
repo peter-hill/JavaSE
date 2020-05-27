@@ -6,7 +6,21 @@ package com.peter.base;
  */
 
 public class Demo07 {
+    /**
+     *
+     * @param args
+     */
     public static void main(String[] args) {
+        int a = 0;
+        int b = 1;
 
+        try {
+            System.out.println(b/a);
+        } catch (Throwable e) {
+            System.out.println("2323");
+            e.printStackTrace();
+        } finally {
+            System.out.println("finally");
+        }
     }
 }
