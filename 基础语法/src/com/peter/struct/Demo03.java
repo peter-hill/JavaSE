@@ -18,7 +18,7 @@ public class Demo03 {
         } else {
             System.out.println("error");
         }
-
+//switch 穿透
         switch (Objects.requireNonNull(exception)){
             case "浩浩":{
                 System.out.println(exception.hashCode());
