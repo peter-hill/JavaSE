@@ -8,10 +8,13 @@ package com.peter.method;
 public class Demo01 {
     // main 放法
     public static void main(String[] args) {
-        System.out.println(add(2,5));
+        int a = 100;
+        int sum = add(2,5);
+        System.out.println(a+" "+sum);
     }
 
     public static int add(int a, int b) {
+        a = 10;
         return a+b;
     }
 }

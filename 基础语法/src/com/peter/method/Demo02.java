@@ -12,7 +12,7 @@ public class Demo02 {
     }
 
     public static int max(int a, int b) {
-        int result = 0;
+//        int result = 0;
 
         if (a > b) {
             return a;
