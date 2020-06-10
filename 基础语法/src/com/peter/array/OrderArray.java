@@ -37,10 +37,11 @@ public class OrderArray {
         while (lowerBound <= upperBound) {
             curIn = (lowerBound + upperBound) / 2;
             if (target < intArray[curIn]) {
-                upperBound = curIn-1;
+                upperBound = curIn;
             }else if (target > intArray[curIn]) {
-                lowerBound = curIn+1;
+                lowerBound = curIn;
             }else {
+                System.out.println(curIn);
                 return curIn;
             }
         }
@@ -81,17 +82,26 @@ public class OrderArray {
             }
             length--;
             return true;
+        }else {
+            return false;
         }
-        return false;
     }
+
     /**
      * 列出所有元素
      */
     public void display() {
         for (int i = 0; i < length; i++) {
-            System.out.println(intArray[length] + "\t");
+            System.out.print(intArray[i] + "\t");
         }
         System.out.println();
+    }
+
+    /**
+     * 打印长度
+     */
+    public void length () {
+        System.out.println(length);
     }
 
 }

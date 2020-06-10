@@ -7,8 +7,20 @@ package com.peter.array;
 
 public class OrderArrayTest {
     public static void main(String[] args) {
-        OrderArray orderArray = new OrderArray(100);
-        orderArray.find(2);
+        OrderArray orderArray = new OrderArray(20);
+        orderArray.insert(20);
+        orderArray.insert(13);
+        orderArray.insert(15);
+        orderArray.insert(4);
+        orderArray.insert(37);
+        orderArray.insert(54);
+        orderArray.display();
+        orderArray.length();
+        orderArray.find(13);
+        orderArray.find(37);
+        orderArray.delete(15);
+        orderArray.display();
+        orderArray.length();
     }
 
 

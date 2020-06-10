@@ -26,6 +26,7 @@ public class Demo04 {
         0000 0000
          */
         System.out.println(2<<3);
-        System.out.println(2>>1);
+        System.out.println(13>>1);
+        System.out.println(16&13);
     }
 }

@@ -18,7 +18,7 @@ public class Array {
     }
 
     /**
-     * 检查数组中是否包含某个元素，是则返回下标，否则返回1
+     * 检查数组中是否包含某个元素，是则返回下标，否则返回-1
      */
     public int contains (String target) {
         int index = -1;
