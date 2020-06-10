@@ -6,5 +6,7 @@ package com.peter.list;
  */
 
 public class List {
+    private int [] a;
+
 
 }

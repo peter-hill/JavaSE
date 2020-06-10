@@ -40,11 +40,11 @@ public class Array {
     }
 
     /**
-     * 在指定位置后插入元素
+     * 在指定位置前插入元素
      */
     public void insertPro (String elem, int location) {
-        if (location > length+1){
-            System.out.println("不能大于最大元素个数");
+        if (location > length-1){
+            System.out.println("不能大于数组最后一个元素的下标值");
         } else if (location < 0) {
             System.out.println("位置不能小于0");
         } else {
@@ -79,5 +79,12 @@ public class Array {
         for (int i = 0; i < length; i++) {
             System.out.print(strArray[i] + "\t");
         }
+    }
+
+    /**
+     * 计算数组长度
+     */
+    public void length () {
+        System.out.println(length);
     }
 }
