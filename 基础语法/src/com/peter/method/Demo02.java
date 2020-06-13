@@ -7,13 +7,24 @@ package com.peter.method;
 
 public class Demo02 {
     public static void main(String[] args) {
-        int result = max(20, 20);
+        int result = max(20, 20, 3);
         System.out.println(result);
     }
 
     public static int max(int a, int b) {
 //        int result = 0;
 
+        if (a > b) {
+            return a;
+        }else if (a < b) {
+            return b;
+        } else {
+            System.out.println("equals");
+            return 0;
+        }
+    }
+
+    public static int max (int a, int b, int c) {
         if (a > b) {
             return a;
         }else if (a < b) {
