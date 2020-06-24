@@ -37,9 +37,9 @@ public class OrderArray {
         while (lowerBound <= upperBound) {
             curIn = (lowerBound + upperBound) / 2;
             if (target < intArray[curIn]) {
-                upperBound = curIn;
+                upperBound = curIn-1;
             }else if (target > intArray[curIn]) {
-                lowerBound = curIn;
+                lowerBound = curIn+1;
             }else {
                 System.out.println(curIn);
                 return curIn;

@@ -12,17 +12,14 @@ public class OrderArrayTest {
         orderArray.insert(13);
         orderArray.insert(15);
         orderArray.insert(4);
-        orderArray.insert(37);
-        orderArray.insert(54);
+//        orderArray.insert(37);
+//        orderArray.insert(54);
+//        orderArray.display();
+//        orderArray.length();
+        orderArray.find(15);
+//        orderArray.find(37);
+//        orderArray.delete(15);
         orderArray.display();
-        orderArray.length();
-        orderArray.find(13);
-        orderArray.find(37);
-        orderArray.delete(15);
-        orderArray.display();
-        orderArray.length();
+//        orderArray.length();
     }
-
-
-
 }
