@@ -15,7 +15,6 @@ public class ArrayDemo05 {
         for (int[] ints : array) {
 //            printArray(ints);
         }
-        Arrays()
     }
 
 }
